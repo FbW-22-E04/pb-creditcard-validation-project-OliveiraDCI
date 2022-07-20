@@ -43,13 +43,6 @@ function checkSameDigits(cc) {
   return true;
 }
 
-function checkSameDigits2(cc) {
-  for (let i = 0; i < cc.length - 1; i++) {
-    if (cc[i] !== cc[i + 1]) return true;
-  }
-  return false;
-}
-
 function checkFinalDigit(cc) {
   if (cc[cc.length - 1] % 2 === 0) {
     return true;
